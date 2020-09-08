@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT-Academy Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="container">
+        <div id="displayWindow">
+            <input id="window-text" class="window-text" type="text" disabled>
+        </div>
+        <div id="numpad">
+            <input type="button" class="btn btn-functional" onclick="ce(this)" value="CE"/>
+            <input type="button" class="btn btn-functional" onclick="c(this)" value="C"/>
+            <input type="button" class="btn btn-functional" onclick="del(this)" value="DEL"/>
+            <input type="button" class="btn btn-operator" onclick="div(this)" value="/"/>
+            <input type="button" class="btn" onclick="num(this)" value="7"/>
+            <input type="button" class="btn" onclick="num(this)" value="8"/>
+            <input type="button" class="btn" onclick="num(this)" value="9"/>
+            <input type="button" class="btn btn-operator" onclick="mul(this)" value="X"/>
+            <input type="button" class="btn" onclick="num(this)" value="4"/>
+            <input type="button" class="btn" onclick="num(this)" value="5"/>
+            <input type="button" class="btn" onclick="num(this)" value="6"/>
+            <input type="button" class="btn btn-operator" onclick="sub(this)" value="-"/>
+            <input type="button" class="btn" onclick="num(this)" value="1"/>
+            <input type="button" class="btn" onclick="num(this)" value="2"/>
+            <input type="button" class="btn" onclick="num(this)" value="3"/>
+            <input type="button" class="btn btn-operator" onclick="add(this)" value="+"/>
+            <input type="button" class="btn" onclick="num(this)" value="0"/>
+            <input type="button" class="btn btn-functional" onclick="num(this)" value="."/>
+            <input type="button" class="btn btn-functional" onclick="plusMinus(this)" value="&plusmn;"/>
+            <input type="button" class="btn btn-operator" onclick="equ(this)" value="="/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
