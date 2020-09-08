@@ -90,7 +90,7 @@ function plusMinus(button) {
 function executePendingOperation() {
     if (!pendingUserInputCheck) return;
 
-    var scr = Number.parseFloat(windowText.value);
+    let scr = Number.parseFloat(windowText.value);
     if (operation) {
         storage = operation(storage, scr);
     }
